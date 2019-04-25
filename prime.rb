@@ -4,5 +4,5 @@ def prime? (num)
   for i in i..(num-1) do
     num % i == 0 ? true : false
   end
-  num < 0 ? true : false
+  num < 0 ? false : true
 end
