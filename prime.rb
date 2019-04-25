@@ -3,7 +3,7 @@ def prime? (num)
   if num <= 1
     return false
   elsif num == 2
-    retuen true
+    return true
   else
     i = 2
     for i in i..(num-1) do
