@@ -7,7 +7,7 @@ def prime? (num)
   else
     i = 2
     for i in i..(num-1) do
-      num % i == 0 ? true : false
+      num % i == 0 ? false : true
     end
   end
 end
