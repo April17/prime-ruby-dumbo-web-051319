@@ -3,7 +3,7 @@ def prime? (num)
   if num <= 1
     return false
   else
-    
+
   end
 end
 def findprime (num)
@@ -13,7 +13,7 @@ def findprime (num)
       counter += 1
       if counter == 2
         break
-      else 
+      else
         return nil
       end
     else
