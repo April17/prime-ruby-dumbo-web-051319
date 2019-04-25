@@ -12,6 +12,7 @@ def findprime (num)
     if num % i == 0
       counter += 1
       if counter == 2
+        true
         break
       else
         return nil
