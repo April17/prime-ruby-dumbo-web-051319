@@ -2,7 +2,7 @@
 def prime? (num)
   if num < 2
     false
-  elsif num == 2
+  elsif num == 2 || num == 3
     true
   else
     for i in 2..(num-1)
@@ -10,6 +10,5 @@ def prime? (num)
         false
       end
     end
-    true
   end
 end
