@@ -2,12 +2,21 @@
 def prime? (num)
   if num <= 1
     return false
-  elsif num <= 3
-    return true
   else
-    i = 2
-    for i in i..(num-1) do
-      num % i == 0 ? false : true
-    end
+    
   end
 end
+def findprime (num)
+  counter = 0
+  for i in 1..num do
+    if num % i == 0
+      counter += 1
+      if counter == 2
+        break
+      else 
+        return nil
+      end
+    else
+      return nil
+    end
+  end
