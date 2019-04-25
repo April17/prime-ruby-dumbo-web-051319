@@ -2,7 +2,7 @@
 def prime? (num)
   counter = 0
   i = 1
-  if num >= 3
+  if num >= 2
     until counter == 2 do
       if num % i == 0
         counter += 1
